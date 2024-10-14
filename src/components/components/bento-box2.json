@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_components_bento_box2s",
+  "info": {
+    "displayName": "BentoBox2"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}

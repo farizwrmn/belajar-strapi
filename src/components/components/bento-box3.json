@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_components_bento_box3s",
+  "info": {
+    "displayName": "BentoBox3"
+  },
+  "options": {},
+  "attributes": {
+    "numeric": {
+      "type": "string",
+      "required": true
+    },
+    "icon": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

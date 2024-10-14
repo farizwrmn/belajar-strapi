@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_compontents_phills",
+  "info": {
+    "displayName": "Phill"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    }
+  }
+}
