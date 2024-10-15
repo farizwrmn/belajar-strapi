@@ -87,19 +87,6 @@ export interface ComponentsPhill extends Schema.Component {
   };
 }
 
-export interface ComponentsBentoBox3 extends Schema.Component {
-  collectionName: 'components_components_bento_box3s';
-  info: {
-    displayName: 'BentoBox3';
-  };
-  attributes: {
-    numeric: Attribute.String & Attribute.Required;
-    icon: Attribute.Media<'images'> & Attribute.Required;
-    title: Attribute.String & Attribute.Required;
-    description: Attribute.Text & Attribute.Required;
-  };
-}
-
 export interface CardsRoleCard extends Schema.Component {
   collectionName: 'components_cards_role_cards';
   info: {
@@ -123,7 +110,6 @@ declare module '@strapi/types' {
       'landing-page.bento-box': LandingPageBentoBox;
       'landing-page.benefit-card': LandingPageBenefitCard;
       'components.phill': ComponentsPhill;
-      'components.bento-box3': ComponentsBentoBox3;
       'cards.role-card': CardsRoleCard;
     }
   }
