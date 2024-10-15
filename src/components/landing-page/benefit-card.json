@@ -1,12 +1,16 @@
 {
-  "collectionName": "components_components_bento_box2s",
+  "collectionName": "components_landing_page_benefit_cards",
   "info": {
-    "displayName": "BentoBox2"
+    "displayName": "benefitCard"
   },
   "options": {},
   "attributes": {
     "title": {
       "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
       "required": true
     },
     "image": {

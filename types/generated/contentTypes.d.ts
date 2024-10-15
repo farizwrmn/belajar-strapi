@@ -803,11 +803,9 @@ export interface ApiLandingPageLandingPage extends Schema.SingleType {
     heroSection: Attribute.Component<'landing-page.hero-section'>;
     roleSection: Attribute.Component<'landing-page.role-section'> &
       Attribute.Required;
-    bentoBox: Attribute.Component<'components.bento-box', true> &
+    benefitSection: Attribute.Component<'landing-page.bento-box'> &
       Attribute.Required;
-    bentoBox2: Attribute.Component<'components.bento-box2'> &
-      Attribute.Required;
-    bentoBox3: Attribute.Component<'components.bento-box3', true> &
+    flowSection: Attribute.Component<'landing-page.bento-box2'> &
       Attribute.Required;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;

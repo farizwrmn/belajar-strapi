@@ -23,22 +23,16 @@
       "required": true,
       "component": "landing-page.role-section"
     },
-    "bentoBox": {
-      "type": "component",
-      "repeatable": true,
-      "component": "components.bento-box",
-      "required": true
-    },
-    "bentoBox2": {
+    "benefitSection": {
       "type": "component",
       "repeatable": false,
-      "component": "components.bento-box2",
-      "required": true
+      "required": true,
+      "component": "landing-page.bento-box"
     },
-    "bentoBox3": {
+    "flowSection": {
       "type": "component",
-      "repeatable": true,
-      "component": "components.bento-box3",
+      "repeatable": false,
+      "component": "landing-page.bento-box2",
       "required": true
     }
   }
